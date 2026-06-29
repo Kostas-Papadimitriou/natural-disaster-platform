@@ -1,0 +1,51 @@
+# Python / Django
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+db.sqlite3
+*.sqlite3
+
+# Django media/static local files
+media/
+staticfiles/
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+secrets.json
+
+# Node / React / React Native
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build/
+dist/
+.expo/
+
+# React Native / Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+*.keystore
+*.jks
+
+# React Native / iOS
+ios/Pods/
+ios/build/
+*.xcworkspace
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
